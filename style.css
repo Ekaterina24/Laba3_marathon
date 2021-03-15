@@ -104,6 +104,10 @@ a {
     padding: 24px;
 }
 
+.wrapper_main_button:hover {
+    cursor: pointer;
+}
+
 .wrapper_main_button_text {
     color: rgba(83, 55, 56, 1);
     font-style: normal;
