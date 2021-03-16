@@ -38,7 +38,7 @@ a {
 
 /*====================MAIN========================*/
 
-.wrapper_main {
+.main {
     display: grid;
     grid-area: main;
     background-image: url(img/Main.png);
@@ -47,11 +47,11 @@ a {
     grid-template: 1fr 5fr / 100px 1fr 100px;
 }
 
-.wrapper_main_header {
+.main_header {
     grid-area: 1 / 2 / 2 / 3;
 }
 
-.wrapper_main_menu {
+.main_menu {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -60,23 +60,23 @@ a {
     line-height: 20px;
 }
 
-.wrapper_main_menu_2_item {
+.main_menu_2_item {
     display: inline-block;
     margin: 0 22.5px 0 0;
 }
 
-.wrapper_main_text {
+.main_text {
     grid-area: 2 / 2 / 3 / 3;
     display: grid;
 }
 
-.wrapper_main_text_total {
+.main_text_total {
     display: grid;
     grid-template: repeat(3, 1fr) / 1fr 1fr;
     justify-self: center;
 }
 
-.wrapper_main_text_header {
+.main_text_header {
     font-size: 50px;
     line-height: 62px;
     color: rgba(83, 55, 56, 1);
@@ -85,7 +85,7 @@ a {
     padding: 24px;
 }
 
-.wrapper_main_text_info {
+.main_text_info {
     grid-area: 2 / 1 / 3 / 2;
     font-style: normal;
     font-weight: normal;
@@ -95,7 +95,7 @@ a {
     padding: 24px;
 }
 
-.wrapper_main_button {
+.main_button {
     grid-area: 2 / 1 / 3 / 2;
     background: rgba(204, 139, 134, 1);
     height: 74px;
@@ -104,11 +104,11 @@ a {
     padding: 24px;
 }
 
-.wrapper_main_button:hover {
+.main_button:hover {
     cursor: pointer;
 }
 
-.wrapper_main_button_text {
+.main_button_text {
     color: rgba(83, 55, 56, 1);
     font-style: normal;
     font-weight: 500;
@@ -117,7 +117,7 @@ a {
     margin: 24px;
 }
 
-.wrapper_main_one_in_two {
+.main_one_in_two {
     display: flex;
     flex-direction: column;
 }
@@ -128,42 +128,133 @@ a {
 
 /*====================ABOUT_US====================*/
 
-.wrapper_about_us {
+.header_about_us {
+    display: flex;
+    justify-self: flex-start;
+    align-self: flex-start;
+    text-transform: uppercase;
+    color: rgba(83, 55, 56, 1);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+
+.about_us_content {
     display: grid;
     grid-area: about_us;
+    margin-top: 65px;
+    grid-template: 90px minmax(465px,auto) / 445px minmax(528px,auto);
+    justify-content: center;
 }
+
+.about_us_image {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.about_us_text {
+    grid-area: 2 / 2 / 3 / 3;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(83, 55, 56, 1);
+    margin-left: 65px;
+}
+
+.about_us_numbers {
+    background: #8D7370;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 273px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.about_us_numbers_grid {
+    display: grid;
+    grid-template: 62px 45px / 500px 500px 500px;
+    justify-self: center;
+}
+
+.number {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 62px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.about_us_number_1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.about_us_number_2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.about_us_number_3 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.about_us_number_text_1 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.about_us_number_text_2 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.about_us_number_text_3 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
 
 /*===================OUR_WORKS====================*/
 
-.wrapper_our_works {
+.our_works {
     display: grid;
     grid-area: our_works;
 }
 
 /*======================TEAM======================*/
 
-.wrapper_team {
+.team {
     display: grid;
     grid-area: team;
 }
 
 /*===================REVIEWS=====================*/
 
-.wrapper_reviews {
+.reviews {
     display: grid;
     grid-area: reviews;
 }
 
 /*=================APPLICATION====================*/
 
-.wrapper_application {
+.application {
     display: grid;
     grid-area: application;
 }
 
 /*===================FOOTER=======================*/
 
-.wrapper_footer {
+.footer {
     display: grid;
     grid-area: footer;
 } 
