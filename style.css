@@ -25,7 +25,7 @@ a {
 .wrapper {
     min-height: 100%;
     display: grid;
-    grid-template: minmax(715px,auto) minmax(849px,auto) minmax(1199px,auto) minmax(1098px,auto) minmax(658px,auto) minmax(624px,auto) minmax(104px,auto) / 1fr;
+    grid-template: minmax(715px,auto) minmax(849px,auto) minmax(1199px,auto) minmax(1098px,auto) minmax(658px,auto) minmax(624px,auto) minmax(80px,auto) / 1fr;
     
     grid-template-areas: "main"
                "about_us"
@@ -279,6 +279,7 @@ a {
 
 .our_works_image1:hover .mask {
     visibility:visible;
+    cursor: pointer;
 }
 
 
@@ -635,3 +636,19 @@ button:hover {
     display: grid;
     grid-area: footer;
 } 
+
+.footer_content {
+    display: grid;
+    grid-template: 1fr / 253px 830px 167px;
+    place-items: center center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+    margin: 0 100px;
+}
+
+.footer_street {
+    justify-self: flex-start;
+}
