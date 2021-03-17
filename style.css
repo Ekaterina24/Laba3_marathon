@@ -25,7 +25,7 @@ a {
 .wrapper {
     min-height: 100%;
     display: grid;
-    grid-template: minmax(715px,auto) minmax(849px,auto) minmax(1199px,auto) minmax(998px,auto) minmax(658px,auto) minmax(624px,auto) minmax(104px,auto) / 1fr;
+    grid-template: minmax(715px,auto) minmax(849px,auto) minmax(1199px,auto) minmax(1098px,auto) minmax(658px,auto) minmax(624px,auto) minmax(104px,auto) / 1fr;
     
     grid-template-areas: "main"
                "about_us"
@@ -257,7 +257,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .mask h2 {
@@ -322,6 +322,132 @@ a {
 .team {
     display: grid;
     grid-area: team;
+    background: rgba(226, 196, 186, 1);
+}
+
+.team_people {
+    display: grid;
+    grid-template: 92px 409px / minmax(320px,auto) minmax(320px,auto) minmax(320px,auto);
+    justify-self: center;
+    margin-top: 50px;
+}
+
+.team_people_title {
+    grid-area: 1 / 2 / 2 / 3;
+    justify-self: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #533738;
+}
+
+.team_people_1 {
+    grid-area: 2 / 1 / 3 / 2;
+    margin-right: 26px;
+}
+
+.team_people_2 {
+    grid-area: 2 / 2 / 3 / 3;
+    margin-right: 30px;
+}
+
+.team_people_3 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.team_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+}
+
+.team_work {
+    display: grid;
+    grid-template: 90px minmax(210px,auto) / minmax(120px,auto) minmax(120px,auto) minmax(120px,auto) minmax(120px,auto);
+    margin-top: 65px;
+    margin: 0 40px;
+    justify-self: center;
+}
+
+.team_work_title {
+    grid-area: 1 / 2 / 2 / 4;
+    justify-self: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #533738;
+    margin-bottom: 30px;
+}
+
+.team_work_item1 {
+    grid-area: 2 / 1 / 3 / 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;  
+    text-align: center;
+    color: #533738;
+    margin: 0 30px;
+}
+
+.circle {
+    position: absolute;
+}
+
+.num {
+    position: absolute;
+    margin-top: 25px;
+}
+
+.team_work_item2 {
+    grid-area: 2 / 2 / 3 / 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;  
+    text-align: center;
+    color: #533738;
+    margin: 0 30px;
+}
+
+.team_work_item3 {
+    grid-area: 2 / 3 / 3 / 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;  
+    text-align: center;
+    color: #533738;
+    margin: 0 30px;
+}
+
+.team_work_item4 {
+    grid-area: 2 / 4 / 3 / 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;  
+    text-align: center;
+    color: #533738;
+    margin: 0 30px;
 }
 
 /*===================REVIEWS=====================*/
