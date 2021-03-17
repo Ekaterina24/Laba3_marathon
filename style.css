@@ -531,6 +531,102 @@ a {
 .application {
     display: grid;
     grid-area: application;
+    background: rgba(141, 115, 112, 1);
+    margin-top: 65px;
+}
+
+.application_content {
+    display: grid;
+    grid-template: 1fr / minmax(510px,auto) minmax(590px,auto);
+    justify-self: center;
+}
+
+form {
+    display: grid;
+    grid-template: minmax(74px,auto) minmax(104px,auto) minmax(70px,auto) minmax(70px,auto) minmax(75px,auto) / 1fr;
+    margin-right: 20px;
+}
+
+form h1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+form p {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+input {
+    border-bottom: 1px solid #FFFFFF;
+    background: none;
+    color: white;
+    font-size: 20px;
+}
+
+::-webkit-input-placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #F6EDE9;
+}
+
+input:focus {
+    outline:none;
+}
+
+form .name {
+    grid-area: 3 / 1 / 4 / 2;
+
+}
+
+form .tel {
+    grid-area: 4 / 1 / 5 / 2;
+}
+
+form button {
+    grid-area: 5 / 1 / 6 / 2;
+    background: rgba(204, 139, 134, 1);
+    height: 74px;
+    width: 309px;
+    border-radius: 0px;
+    padding: 24px;
+    margin-top: 30px;
+}
+
+.application_button_text {
+    color: rgba(83, 55, 56, 1);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.application_content_form h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.application_content_form p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    align-self: center;
+}
+
+.application_content_map {
+    margin: 10px 0;
 }
 
 /*===================FOOTER=======================*/
