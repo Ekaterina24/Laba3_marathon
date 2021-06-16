@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Maket</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="print" href="print.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -17,24 +19,30 @@
             <header class="main_header">
                 <section class="main_menu">
                     <section class="main_menu_1">
-                        <a href="#"><img src="img/Logo.png" alt="" style="width: 25.34px;
+                        <a href="#"><img src="img/Logo.png" alt="логотип" style="width: 25.34px;
                     height: 25px;"></a>
-                        <a href="#">SCANDI</a>
+                        <a href="/scandi.com">SCANDI</a>
                     </section>
                     <nav class="main_menu_2">
-                        <a href="#about_us" class="main_menu_2_item">О компании</a>
-                        <a href="#our_works" class="main_menu_2_item">Портфолио</a>
-                        <a href="#team" class="main_menu_2_item">Команда</a>
-                        <a href="#team_work" class="main_menu_2_item">Как мы работаем</a>
-                        <a href="#reviews" class="main_menu_2_item">Отзывы клиентов</a>
-                        <a href="#application" class="main_menu_2_item">Оставить заявку</a>
-                        <a href="#" class="main_menu_2_item">+7 (981) 857-46-24</a>
+                        <ul>
+                            <li><a href="#about_us" class="main_menu_2_item">О компании</a></li>
+                            <li><a href="#our_works" class="main_menu_2_item">Портфолио</a></li>
+                            <li><a href="#team" class="main_menu_2_item">Команда</a></li>
+                            <li><a href="#team_work" class="main_menu_2_item">Как мы работаем</a></li>
+                            <li><a href="#reviews" class="main_menu_2_item">Отзывы клиентов</a></li>
+                            <li><a href="#application" class="main_menu_2_item">Оставить заявку</a></li>
+                            <li><a href="#" class="main_menu_2_item last">+7 (981) 857-46-24</a></li>
+                        </ul>
                     </nav>
+
+                    <button class="search" aria-label="Найти"></button>
                 </section>
             </header>
             <section class="main_text">
                 <section class="main_text_total">
                     <h1 class="main_text_header">Поможем сделать<br> вашу квартиру<br>
+                        уютнее</h1><br>
+                    <h1 class="main_text_header_2">Поможем сделать вашу квартиру
                         уютнее</h1><br>
                     <section class="main_one_in_two">
                         <p class="main_text_info">Подбираем текстиль, мебель и аксессуары<br>
@@ -56,7 +64,7 @@
                     О нас
                 </header>
                 <section class="about_us_image">
-                    <img src="img/About_us.png" alt="">
+                    <img src="img/About_us.png" alt="Наша продукция">
                 </section>
                 <section class="about_us_text">
                     Премиальный европейский текстиль — одно из самых<br> главных направлений работы коллектива.
@@ -101,17 +109,17 @@
                 </section>
 
                 <section class="our_works_image2">
-                    <img src="img/Out_works_2.png" alt="">
+                    <img src="img/Out_works_2.png" alt="дизайн квартиры">
                 </section>
                 <section class="our_works_image3">
-                    <img src="img/Out_works_3.png" alt="">
+                    <img src="img/Out_works_3.png" alt="дизайн квартиры">
                 </section>
                 <section class="our_works_image4">
-                    <img src="img/Out_works_4.png" alt="">
+                    <img src="img/Out_works_4.png" alt="дизайн квартиры">
                 </section>
                 <section class="our_works_still">
 
-                    <pre><span><a href="#">Смотреть ещё</span> <img src="img/Next.png" alt=""></pre></a>
+                    <pre><span><a href="#">Смотреть ещё</span> <img src="img/Next.png" alt="перейти далее"></pre></a>
                 </section>
 
             </section>
@@ -123,14 +131,14 @@
                     Команда
                 </section>
                 <section class="team_people_1 team_text">
-                    <img src="img/Team_1.png" alt="">
+                    <img src="img/Team_1.png" alt="Маша Дизайнер">
                     <p>Это Маша, наш главный дизайнер.<br> Она отвечает за дизайн-проект,<br> приезжает к вам домой,
                         общается<br>
                         и помогает сделать вашу квартиру<br> красивой и уютной.</p>
                 </section>
 
                 <section class="team_people_2 team_text">
-                    <img src="img/Team_2.png" alt="">
+                    <img src="img/Team_2.png" alt="Саша Менеджер">
                     <p>С нашим менеджером Сашей вы<br> познакомитесь в первую<br> очередь. Она проконсультирует<br> вас,
                         соберёт все
                         документы<br>
@@ -138,7 +146,7 @@
                 </section>
 
                 <section class="team_people_3 team_text">
-                    <img src="img/Team_3.png" alt="">
+                    <img src="img/Team_3.png" alt="Катя Дизайнер">
                     <p>Катя тоже занимается дизайном.<br>
                         Она всегда находит общий язык<br>
                         с клиентами и точно знает,<br>
@@ -152,29 +160,29 @@
                     Как мы работаем
                 </section>
                 <section class="team_work_item1">
-                    <img src="img/Circle.png" class="circle" alt=""><br>
-                    <img src="img/1.png" class="num" alt=""><br><br>
+                    <img src="img/Circle.png" class="circle" alt="круг"><br>
+                    <img src="img/1.png" class="num" alt="номер 1"><br><br>
                     <p>Знакомимся, выезжаем<br>
                         на объект, утверждаем<br> концепцию, подписывем<br> договор.</p>
                 </section>
 
                 <section class="team_work_item2">
-                    <img src="img/Circle.png" class="circle" alt=""><br>
-                    <img src="img/2.png" class="num" alt=""><br><br>
+                    <img src="img/Circle.png" class="circle" alt="круг"><br>
+                    <img src="img/2.png" class="num" alt="номер 2"><br><br>
                     <p>Подбираем мебель, текстиль,<br> аксессуры. Делаем 3D-<br>
                         зуализацию.</p>
                 </section>
 
                 <section class="team_work_item3">
-                    <img src="img/Circle.png" class="circle" alt=""><br>
-                    <img src="img/3.png" class="num" alt=""><br><br>
+                    <img src="img/Circle.png" class="circle" alt="круг"><br>
+                    <img src="img/3.png" class="num" alt="номер 3"><br><br>
                     <p>Находим нужные магазины,<br> помогаем с доставкой<br>
                         и оплатой товаров.</p>
                 </section>
 
                 <section class="team_work_item4">
-                    <img src="img/Circle.png" class="circle" alt=""><br>
-                    <img src="img/4.png" class="num" alt=""><br><br>
+                    <img src="img/Circle.png" class="circle" alt="круг"><br>
+                    <img src="img/4.png" class="num" alt="номер 4"><br><br>
                     <p>Воплощаем проект в жизнь:<br>
                         расставляем мебель и цветы,<br> вешаем шторы, находим<br> места для мелочей</p>
                 </section>
@@ -189,8 +197,8 @@
                 </section>
 
                 <section class="reviews_icon1">
-                    <a href="#"><img src="img/Circle_2.png" class="circle_2" alt="">
-                        <img src="img/Left.png" class="arrow" alt=""></a>
+                    <a href="#"><img src="img/Circle_2.png" class="circle_2" alt="круг">
+                        <img src="img/Left.png" class="arrow" alt="стрелка влево"></a>
                 </section>
 
                 <section class="reviews_text">
@@ -206,13 +214,13 @@
                 </section>
 
                 <section class="reviews_images">
-                    <img src="img/Reviews.png" alt="">
-                    <img src="img/Reviews_2.png" alt="">
+                    <img class="reviews_images1" src="img/Reviews.png" alt="картинка 1 отзыв">
+                    <img src="img/Reviews_2.png" alt="картинка 2 отзыв">
                 </section>
 
                 <section class="reviews_icon2">
-                    <a href="#"><img src="img/Circle_2.png" class="circle_2" alt="">
-                        <img src="img/Right.png" class="arrow" alt=""></a>
+                    <a href="#"><img src="img/Circle_2.png" class="circle_2" alt="круг">
+                        <img src="img/Right.png" class="arrow" alt="стрелка вправо"></a>
                 </section>
             </section>
         </section>
@@ -220,21 +228,29 @@
         <section class="application" id="application">
             <section class="application_content">
                 <section class="application_content_form">
-                    <form action="">
-                        <h1>Оставить заявку</h1>
+                    <fieldset>
+                        <legend>Оставить заявку</legend>
                         <p>Оставьте свои контакты. Менеджер перезвонит<br>
                             в удобное вам время и ответит на все вопросы.</p>
-                        <input class="name" type="text" placeholder="Ваше имя">
-                        <input class="tel" type="text" placeholder="Введите телефон">
-                        <button class="application_button application_button_text">
+                        <label>
+                            Ваше имя
+                            <input class="name" type="text">
+                        </label>
+
+                        <label>
+                            Введите телефон
+                            <input class="name" type="text">
+                        </label>
+                        <button class="application_button application_button_text alert-btn">
                             Оставить заявку
                         </button>
-                    </form>
+                        <div class="alert" role="alert" hidden>Заявка отправлена</div>
+                    </fieldset>
 
                 </section>
 
                 <section class="application_content_map">
-                    <img src="img/Map.png" alt="">
+                    <img src="img/Map.png" alt="карта">
                 </section>
             </section>
         </section>
@@ -247,6 +263,23 @@
             </section>
         </footer>
     </div>
+
+
+    <script>
+        const alertBtn = document.querySelector('.alert-btn');
+        const alertWindow = document.querySelector('.alert');
+
+        alertBtn.addEventListener('click', () => {
+            alertWindow.removeAttribute('hidden');
+            alertWindow.classList.add('visible');
+
+            setTimeout(() => {
+                alertWindow.classList.remove('visible');
+                alertWindow.setAttribute('hidden', true);
+            }, 2000);
+        });
+
+    </script>
 
 </body>
 

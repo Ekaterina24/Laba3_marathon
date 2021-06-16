@@ -1,0 +1,137 @@
+.main_menu_2, .application, .main_text_header, button, .header_about_us, .our_works_images_title, .our_works_image2, .our_works_image3, .our_works_image4, .our_works_still, .team_people_title, .circle, .num, .team_work_title,
+.team_work, .reviews_images1, .reviews_icon1, .reviews_icon2, .reviews_images {
+    display: none;
+}
+
+body {
+    font-family: serif;
+}
+
+.main_menu_1 a {
+    text-decoration: none;
+    color: rgba(83, 55, 56, 1);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30pt;
+}
+
+.main_text_header_2 {
+    text-align: center;
+    font-size: 45pt;
+}
+
+.main_text_info {
+    font-size: 40pt;
+    text-align: center;
+}
+
+@page {
+    size: A4;
+    margin: 1cm;
+}
+
+.about_us_image {
+    margin-left: 18cm;
+    width: 100;
+}
+
+.about_us_text {
+    margin-top: -10cm;
+    margin-left: 5cm;
+    font-size: 15pt;
+}
+
+.about_us_numbers_grid {
+    margin-top: 5cm;
+    display: grid;
+    grid-template: 50px 40px / 90px 90px 90px;
+    justify-self: center;
+    border: 2px solid black;
+    width: 270px;
+    height: 100px;
+    text-align: center;
+    margin-left: 10cm;
+    font-size: 15pt;
+
+    page-break-before: always;
+}
+
+.about_us_number_1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.about_us_number_2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.about_us_number_3 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.about_us_number_text_1 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.about_us_number_text_2 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.about_us_number_text_3 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+
+
+.mask h2 {
+    font-size: 20pt;
+    margin-left: 9cm;
+    margin-top: 3cm;
+}
+
+.mask p {
+    font-size: 15pt;
+    margin-left: 17cm;
+    margin-top: -3cm;
+}
+
+
+
+.team_people {
+    margin-top: 1.5cm;
+    column-width: 25em;
+    height: 420px;
+}
+
+.team_text {
+    text-align: center;
+    font-size: 15pt;
+}
+
+.reviews_title {
+    page-break-before: always;
+
+    font-size: 30pt;
+    font-weight: 300;
+    margin-left: 2cm;
+}
+
+
+.reviews_text p, .reviews_text h2 {
+    margin-left: 5cm;
+}
+
+.reviews_text p {
+    font-size: 20pt;
+}
+
+.footer_content {
+    column-width: 30em;
+    margin-left: 5cm;
+    margin-top: 1cm;
+    font-size: 15pt;
+}
+
+a[href]::after {
+    content: " (" attr(href) ")";
+}
+
